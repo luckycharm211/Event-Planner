@@ -1,0 +1,287 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css");
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:ital@0;1&family=Poppins:wght@200&family=Tangerine:wght@700&family=Josefin+Sans:wght@500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+   /* font-family: 'Crimson Text', serif; */
+   font-family: sans-serif;
+   width:100vw;
+   height: 100vh;
+   overflow-x: hidden;
+   
+  
+}
+html{
+    overflow-x: hidden; 
+}
+
+.fixed{
+    position: fixed;
+    width:100vw;
+    z-index: 20;
+}
+.top {
+    position: relative;
+    width:100%;
+    float:left;
+    padding:10px;
+    
+    background-color: white;
+}
+.top a{
+    text-decoration: none;
+    color: black;
+    width: 100%;
+}
+.center{
+    /* position: absolute; */
+   display: flex;
+   justify-content: space-evenly;
+   max-width:100%;
+   padding: 5px;
+   margin: 0 auto;
+   max-height: 55px;
+   background-color: #86c8ef;
+   
+}
+.center a{
+    display: none;
+    text-decoration: none;
+    justify-content: space-between;
+    font-size: 16px;
+    padding-top: 10px;
+    /* padding: 30px; */
+    color: black;
+    font-family: 'Crimson Text', serif;
+}
+.center a:hover{
+    text-decoration: underline ;
+} 
+.image{
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url("https://noyapro.com/wp-content/uploads/2021/09/The-Best-10-Event-Planners.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width:100%;
+    height: auto;
+    /* border: 5px solid red; */
+    position: relative;
+    z-index: 10;
+    
+    
+   }
+   .bon{
+    position: absolute;
+    font-family: 'Tangerine', cursive;
+    font-size: 30px;
+    top: 35%;
+    left: 25%;
+    /* position: sticky; */
+    /* z-index: -1; */
+    color: white;
+    font-weight: 600;
+    /* transform: translate(-50%, 50%); */
+}   
+@media(min-width:425px){
+    .center a{
+     display: none;
+    } 
+    .image{
+        width:100vw;
+        height:100vh;
+    }
+     .bon{
+        display:block;
+        font-size: 35px;
+        top:40%;
+        left:20%;
+        
+     }
+    
+}
+@media(min-width:768px){
+    .center a{
+        display: block;
+       } 
+       .bon{
+        display:block;
+        font-size: 70px;
+        top:35%;
+        left:55%;
+        
+     }
+     .image{
+        width:100vw;
+        height:100vh;
+    }
+    }
+    
+ @media(min-width:1024px){
+    .center a{
+        display: block;
+        
+       } 
+       .bon{
+        display:block;
+        font-size: 100px;
+        top:35%;
+        left:55%;
+       
+        }
+        .image{
+            width:100vw;
+            height:100vh;
+        }
+        
+        .main_2{
+            display: block;
+            width:100%;
+            height: 400px;
+            /* background-color: red; */
+        }  
+        
+     
+} 
+.head_1{
+    /* width:100%; */
+    text-align: center;
+    padding: 20px;
+    /* margin: 10px; */
+    font-family: 'Crimson Text', serif;
+    font-weight: 200;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+
+
+.sec1{
+    padding: 1rem;
+    /* z-index: 100; */
+}
+.main_2{
+ width:100%;
+ /* height: 80vh; */
+ padding: 1rem;
+ /* background-color: aquamarine; */
+ height: 500px;
+}
+img{
+    
+}
+
+.text{
+    
+    /* margin:10px; */
+    /* padding: 20px; */
+    font-family: 'Crimson Text', serif;
+    font-size: 1.5 rem;
+    line-height: 1 em;
+    max-width: 100vw;
+}
+.text span{
+    font-family: 'Crimson Text', serif;
+    font-size: 20px;
+    color: rgb(228, 31, 31);
+}
+.serv{
+    width:100%;
+    text-align: center;
+    /* color:blue; */
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    font-size: 55px;
+    font-family: 'Crimson Text', serif;
+    
+  }
+.connect_3 .h1{
+    
+}
+
+@media(min-width:1025px){
+
+.img{
+    width: 600px;
+    max-width: 100%;
+    float:left;
+    /* padding: 1rem; */
+}
+.text{
+    margin-top: 5rem;
+    float:right;
+    width: 700px;
+    max-width: 100%; 
+    height: 400px;
+    line-height: 1.8rem; 
+    font-size: 1.4rem;
+}  
+
+}
+
+
+.container{
+    margin-left: 1em;
+    margin-right: 1em;
+}
+.para p{
+    font-size: 1.3rem;
+    line-height:1.8rem;
+    font-family: 'Crimson Text', serif;
+    /* color:red; */
+}
+.para h1{
+    font-size: 1.5rem;
+    padding: 1rem 0;
+}
+.para_2 p{
+    font-size: 1.3rem;
+    line-height:1.8rem;
+    font-family: 'Crimson Text', serif;
+    /* color:red; */
+}
+.para_2 h1{
+    font-size: 1.5rem;
+    padding: 1rem 0;
+}
+.row{
+    padding-left: 1rem;
+}
+/* media query */
+@media(min-width:1024px) {
+    .pic_1{
+        width: 700px;
+        max-width: 100%;
+        float:left;
+        /* padding: 1rem; */
+    }
+    .para{
+        /* margin-top: 5rem; */
+        float:right;
+        width: 700px;
+        max-width: 100%; 
+        height: 400px;
+        line-height: 1.8rem; 
+        font-size: 1.2rem;
+    }  
+    .row{
+        display: block;
+        height: 80vh;
+        /* width: 100%; */
+    } 
+    .pic_2{
+        width: 700px;
+        max-width: 100%;
+        float:right;
+    }
+    .para_2{
+        margin-top: 5rem;
+        float:left;
+        width: 700px;
+        max-width: 100%; 
+        height: 400px;
+        line-height: 1.8rem; 
+        font-size: 1.2rem;
+    } 
+    }
